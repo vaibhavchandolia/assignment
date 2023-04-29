@@ -1,0 +1,65 @@
+.floorplan-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0 3rem 0;
+}
+
+.floorplan-container > h1 {
+    font-size: 3rem;
+}
+
+.floorplan-card{
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img-con{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.flr-btn{
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-size: 1.5rem; 
+    background-color: #4EB108;
+    border: 0;
+    cursor: pointer;
+}
+
+.img1{
+    background-image: url(./../../Assets/masterPlan.jpg);
+}
+
+.img2{
+    background-image: url(./../../Assets/villaPlan.jpg);
+}
+
+.img-con:hover{
+    transform: scale(1.5);
+    filter: grayscale()
+}
+
+@media(max-width: 690px){
+    .floorplan-card{
+        flex-direction: column;
+    }
+
+    .floorplan-container > h1 {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "slides": [
+      {
+        "src": "https://www.prestigeconstructions.com//admin/uploads/projects/prestige-dew-drops/gallery/prestige-dew-drops-02.jpeg",
+        "alt": "Image 1 for carousel"
+      },
+      {
+        "src": "https://www.prestigeconstructions.com//admin/uploads/projects/prestige-dew-drops/gallery/prestige-dew-drops-03.jpeg",
+        "alt": "Image 2 for carousel"
+      },
+      {
+        "src": "https://www.prestigeconstructions.com//admin/uploads/projects/prestige-dew-drops/gallery/prestige-dew-drops.jpeg",
+        "alt": "Image 3 for carousel"
+      }
+    ]
+  }

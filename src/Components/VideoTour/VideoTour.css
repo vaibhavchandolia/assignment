@@ -1,0 +1,70 @@
+.virtualTour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.virtualTour-con{
+    background-image: linear-gradient(180deg, rgba(32,33,37,1) 5%, rgba(32,33,37,0) 100%), url(./../../Assets/carousel1.jpeg);
+    width: 800px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom:6rem ;
+}
+
+
+.play-icon{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+
+.virtualTour-con > h1 {
+    font-size: 2rem;
+}
+
+.about-dev-con{
+    display: flex;
+    margin: 0 2rem 0 2rem;
+    background-color: #EDEAD0;
+    width: 100%;
+}
+
+.logo-img{
+    background-image: url(./../../Assets/bottom-logo.png);
+    height: inherit;
+    flex-grow: 1;
+    width: 200px;
+    background-repeat: no-repeat;
+    margin-top: 2.8rem;
+    height: 230px;
+}
+
+.about-dev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    width: 60vw;
+    height: inherit;
+}
+
+@media(max-width: 850px){
+    .virtualTour-con{
+        width: 600px;
+        height: 300px;
+    }
+
+    .about-dev-con{
+        flex-direction: column;
+        align-items: center;
+    }
+}

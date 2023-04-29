@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+}
+

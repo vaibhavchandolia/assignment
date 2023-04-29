@@ -1,0 +1,168 @@
+.pricing-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.pricing-container> h1{
+    font-size: 3rem;
+}
+
+.pricing-details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+}
+
+.pricing-left{
+    display: flex;
+    align-items: left;
+    flex-grow: 1;
+    /* width: 30vw; */
+    /* border: 1px solid black; */
+    height: inherit;
+    margin-left: 3rem;
+}
+
+.pricing-left-left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 2rem 3rem 2rem 3rem;
+}
+
+.pricing-left-left span i{
+    margin-right: 1rem;
+}
+
+.pricing-left-left span:not(:last-child){
+    margin-bottom: 2rem ;
+}
+
+.pricing-left-right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    margin: 2rem 3rem 2rem 2rem;
+}
+
+.pricing-left-right span:not(:last-child){
+    margin-bottom: 2rem ;
+}
+
+.callback{
+    flex-grow: 1;
+    width:100px;
+    margin: 0 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    height: inherit;
+}
+
+.callbackForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+}
+
+.callbackTitle{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.callbackForm input:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+.callbackInput{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.btn-pricing{
+    width: 100px;
+    min-height: 35px !important;
+    padding: 0;
+}
+
+
+@media(max-width: 1100px){
+    .pricing-left{
+        flex-grow: 1;
+    }
+}
+
+@media(max-width: 1014px){
+    .pricing-container > h1 {
+        font-size: 2rem;
+       
+    }
+
+    .pricing-details-container{
+        flex-direction: column;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        /* width: 100%; */
+    }
+
+    .pricing-left {
+        display: flex;
+        align-items: left;
+        flex-grow: 2;
+        /* width: 30vw; */
+        /* border: 1px solid black; */
+        /* height: inherit; */
+        margin-left: 3rem;
+    }
+
+    .callback {
+        flex-grow: 1;
+        width: 25rem;
+        /* margin: 0 2rem 0 2rem; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+        /* height: inherit; */
+    }
+    
+}
+
+@media(max-width: 774px){
+    .pricing-container > h1 {
+        font-size: 2rem;
+       
+    }
+
+    
+}
