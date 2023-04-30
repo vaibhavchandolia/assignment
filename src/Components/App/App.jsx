@@ -1,4 +1,4 @@
-import React from 'react'
+import {useState} from 'react'
 import Amenities from '../Amenities/Amenities'
 import FloorPlan from '../FloorPlan/FloorPlan'
 import Home from '../Home/Home'
@@ -7,13 +7,17 @@ import Navbar from '../Navbar/Navbar'
 import Overview from '../Overview/Overview'
 import Pricing from '../Pricing/Pricing'
 import VideoTour from '../VideoTour/VideoTour'
+import Modal from '../ModalForm/ModalForm'
 import './App.css'
 
+
+
 export default function App() {
+
   return (
     <div className='app'>
         <Navbar />
-        <Home />
+        <Home  />
         <Overview />
         <Amenities />
         <Pricing />

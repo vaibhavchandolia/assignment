@@ -1,11 +1,17 @@
-import React from 'react'
+import {useState} from 'react'
 import { Carousel } from '../Carousel/Carousel'
 import  data  from "./../../Data/carouselData.json"
 import logo from './../../Assets/dew-drops-logo.jpg'
 import about from './../../Assets/about-img.jpg'
 import './Home.css'
+import Modal from '../ModalForm/ModalForm'
 
 export default function Home() {
+
+    const [isOpen, setIsOpen] = useState(false)
+
+    const closeModal = () => setIsOpen(false)
+
   return (
     <div id='home' className='home'>
         <Carousel data={data.slides} />
@@ -15,7 +21,27 @@ export default function Home() {
                 <h2>Prestige Dew Drops</h2>
                 <p>Doddaballapur Main Rd, Adde Vishwanathapura, Rajanukunte, Bengaluru , 560064.</p>
             </div>
-            <button className="button-5" role="button">Enquire Now</button>
+            <button className="button-5" onClick={() => setIsOpen(true)}>Enquire Now</button>
+            <Modal open={isOpen} closeModal={closeModal}>
+            <div className='callback-modal'>
+                <span className='callbackTitle'>Request a callback</span>
+                <form className='callbackForm'> 
+                    <div className="input-icons">
+                        <i class="fa-solid fa-user icon"></i>                 
+                        <input type="text" className='input-field' placeholder='&#xf007; Your Name *' />
+                    </div>
+                    <div className="input-icons">
+                        <i class="fa-solid fa-phone icon"></i>
+                        <input type="text" className='input-field' placeholder='Your Mobile *' />
+                    </div>
+                    <div className="input-icons">
+                        <i class="fa-solid fa-envelope icon"></i>
+                        <input type="email" className='input-field' placeholder='Your Email *' />
+                    </div>
+                    <button className="button-5 btn-pricing" role="button">Enquire</button>
+                </form>
+            </div>
+            </Modal>
         </div>
         <div className='about-container'>
             <h1>Where the Dream of Your Lavish Villa Experience Comes True </h1>
