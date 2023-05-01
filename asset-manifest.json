@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/assignment/static/css/main.f238021d.css",
+    "main.js": "/assignment/static/js/main.b6c51797.js",
+    "static/media/carousel1.jpeg": "/assignment/static/media/carousel1.0ddcfa08e71db45e2f48.jpeg",
+    "static/media/about-img.jpg": "/assignment/static/media/about-img.39f1e208f93ee86a934c.jpg",
+    "static/media/carousel2.jpeg": "/assignment/static/media/carousel2.a3dbb8f774459e2881fb.jpeg",
+    "static/media/dew-drops-logo.jpg": "/assignment/static/media/dew-drops-logo.71e7fa9f19830f6b379d.jpg",
+    "static/media/masterPlan.jpg": "/assignment/static/media/masterPlan.29ae318789c936d08643.jpg",
+    "static/media/villaPlan.jpg": "/assignment/static/media/villaPlan.4edd077a1856b005a997.jpg",
+    "static/media/logo.png": "/assignment/static/media/logo.ecd1f37a5ff6b1049eb5.png",
+    "index.html": "/assignment/index.html",
+    "main.f238021d.css.map": "/assignment/static/css/main.f238021d.css.map",
+    "main.b6c51797.js.map": "/assignment/static/js/main.b6c51797.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f238021d.css",
+    "static/js/main.b6c51797.js"
+  ]
+}
