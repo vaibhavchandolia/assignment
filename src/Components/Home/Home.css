@@ -67,10 +67,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .about-img {
     max-width: 100%;
+    transition: all 1s;
 }
 
 .about-details{
@@ -167,3 +170,7 @@
     }
 }
 
+.about-img:hover{
+    transform: scale(1.5);
+    filter: grayscale()
+}
